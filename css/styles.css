@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --Blanco: #fff;
+    --BorderRadius: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    min-height: 1500px;
+}
+
+a{
+    text-decoration: none;
+    color:var(--Blanco);
+
+}
+
+li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+/* ENCABEZADO*/
+.cabecera {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 20px;
+    cursor: pointer;
+    color:var(--Blanco);
+    text-shadow: 0px 0px 4px #48155f8a;
+}
+
+.menu .list-menu {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.menu .list-menu  li{
+    transition: all 300ms;
+}
+
+.menu .list-menu  li:hover{
+    transform: scale(1.2);
+}
+
+.menu .list-menu  li a{
+    text-shadow: 0px 0px 4px #48155f8a;
+}
+
+/* CONTENT HEADER */
+.content-header {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.content-header h1 {
+    font-size: 60px;
+    margin: 0;
+    color:var(--Blanco);
+    text-shadow: 0px 0px 4px #48155f8a;
+}
+
+.content-header h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: var(--Blanco);
+    text-shadow: 0px 0px 4px #48155f8a;
+}
+
+.content-header a {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color:#e64444;
+    color: var(--Blanco);
+    border-radius: var(--BorderRadius);
+    transition: all 300ms;
+}
+.content-header a:hover {
+    background-color: #b92525;
+}
+
+/* BANNER */
+.hero-image {
+    height: 100vh;
+    background : linear-gradient(rgba(82, 129, 167, 0.9),rgba(125, 100, 128, 0.9)),
+               url('../img/fondo1.jpg') center / cover;   
+}
+
+
+/* SECCION SOBRE MI */
+
+.sobre-mi  h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    display: block;
+    position: relative;
+}
+
+.sobre-mi .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:  space-around;
+    align-items: center;
+}
+.sobre-mi .container img {
+    width: 100%;
+    max-width: 390px;
+}
+.caja-parrafos {
+    width: 50%;
+}
+
+.caja-parrafos  a{
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color:#e64444;
+    color: var(--Blanco);
+    border-radius: var(--BorderRadius);
+    transition: all 300ms;
+}
+
+.caja-parrafos  a:hover {
+    background-color: #b92525;
+}
+
+.caja-parrafos  p {
+    font-size: 18px;
+}
+
+.caja-parrafos  p:nth-child(2) {
+    margin-bottom: 30px;
+}
+

@@ -1,0 +1,142 @@
+@media screen and (max-width: 360px) {
+
+    .caja-parrafos {
+        width: 80%;
+    }
+
+    .logo{
+        padding-top: 26px;
+        font-size: 26px;
+        margin: 0 auto;
+    }
+
+    .cabecera {
+        flex-flow: column wrap;
+    }
+
+    .menu .list-menu {
+        flex-direction: column;
+       align-items: center;
+    }
+
+    .menu .list-menu li {
+        transition: all 300ms;
+        margin-bottom: 20px;
+    }
+
+    .content-header {
+        margin-top: 50px;
+    }
+
+    .content-header h1{
+        font-size: 40px;
+    }
+    .sobre-mi .container img {
+        margin: 40px 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .caja-parrafos {
+        width: 90%;
+    }
+
+    .logo{
+        padding-top: 26px;
+        font-size: 26px;
+        margin: 0 auto;
+    }
+
+    .cabecera {
+        flex-flow: column wrap;
+    }
+
+    .menu .list-menu {
+        flex-direction: column;
+       align-items: center;
+    }
+
+    .menu .list-menu li {
+        transition: all 300ms;
+        margin-bottom: 20px;
+    }
+
+    .content-header {
+        margin-top: 60px;
+    }
+
+    .content-header h1{
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .caja-parrafos {
+        width: 75%;
+    }
+    .hero-image {
+        height: 90vh;
+    }
+    .logo{
+        padding-top: 26px;
+        font-size: 26px;
+        margin: 0 auto;
+    }
+    .cabecera {
+        flex-flow: column wrap;
+    }
+    .menu .list-menu {
+        flex-direction: column;
+       align-items: center;
+    }
+    .menu .list-menu li {
+        transition: all 300ms;
+        margin-bottom: 20px;
+    }
+    .content-header {
+        margin-top: 60px;
+    }
+    .content-header h1{
+        font-size: 48px;
+    }
+} 
+
+ @media screen and (max-width: 500px) {
+
+    
+    .logo{
+        padding-top: 26px;
+        font-size: 26px;
+        margin: 0 auto;
+    }
+
+    .cabecera {
+        flex-flow: column wrap;
+    }
+
+    .cabecera .logo{
+        margin-bottom:20px;
+    }
+
+    .content-header {
+        margin-top: 130px;
+    }
+
+    .content-header h1{
+        font-size: 48px;
+    }
+
+    .sobre-mi .container img {
+        margin: 25px 0;
+    }
+    .caja-parrafos {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .caja-parrafos {
+        width: 85%;
+    } 
+}
