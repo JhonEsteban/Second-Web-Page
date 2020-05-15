@@ -1,5 +1,9 @@
-@media screen and (max-width: 360px) {
+/* @media all and (max-width: 360px) {
 
+    .hero-image {
+        height: 100vh;
+    }
+    
     .caja-parrafos {
         width: 80%;
     }
@@ -25,7 +29,7 @@
     }
 
     .content-header {
-        margin-top: 50px;
+        margin-top: 60px;
     }
 
     .content-header h1{
@@ -34,9 +38,12 @@
     .sobre-mi .container img {
         margin: 40px 0;
     }
+    .habilidades h3 {
+        font-size: 45px;
+    }
 }
 
-@media screen and (max-width: 375px) {
+@media all and (max-width: 375px) {
     .caja-parrafos {
         width: 90%;
     }
@@ -68,14 +75,17 @@
     .content-header h1{
         font-size: 48px;
     }
+    .habilidades h3 {
+        font-size: 45px;
+    }
 }
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
     .caja-parrafos {
         width: 75%;
     }
     .hero-image {
-        height: 90vh;
+        height: 100vh;
     }
     .logo{
         padding-top: 26px;
@@ -101,7 +111,7 @@
     }
 } 
 
- @media screen and (max-width: 500px) {
+@media all and  (max-width: 500px) {
 
     
     .logo{
@@ -134,9 +144,30 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 630px) {
+    .cabecera {
+        flex-flow: column wrap;
+    }
+
+    .logo {
+        padding-top: 10px;
+    }
+
+    .content-header {
+        margin-top: 85px;
+    }
+
+
+}
+
+@media all and  (max-width: 768px) {
+
+    .hero-image {
+        height: 70vh;
+    }
 
     .caja-parrafos {
         width: 85%;
     } 
 }
+ */
